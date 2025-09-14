@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        .layout-table {
+            width: 100%;
+        }
+        .layout-table td {
+            vertical-align: top;
+        }
+        .menu {
+            width: 20%;
+            background-color: #34ca1a;
+            padding: 10px;
+        }
+        .content {
+            width: 80%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DANIIL KHVAN</h1>
+    <h2>Web Technologies Course</h2>
+    <h3>About Me</h3>
+    <p>Hello! I'm DANIIL KHVAN, a student in SE-2417 at Astana It University. I enjoy learning coding and would like to become a proficient web developer. In my free time, I explore new technologies and work on personal projects.</p>
+
+    <h3>My Hobbies</h3>
+    <ol>
+        <li>Reading books</li>
+        <li>Coding</li>
+        <li>Hobby Horsing</li>
+    </ol>
+
+    <h3>Websites that I use the most</h3>
+    <ul>
+        <li><a href="https://www.udemy.com">Udemy</a></li>
+        <li><a href="https://www.youtube.com">YouTube</a></li>
+    </ul>
+
+    <h3>My Photo</h3>
+    <img src="IMG_0051.png" alt="here has to be me" width="300">
+
+    <button>Watch to me</button>
+
+    <h3>My Uni Schedule</h3>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Web Technologies</td>
+            <td>Monday</td>
+            <td>16:00 - 18:00</td>
+        </tr>
+        <tr>
+            <td>Software Design Patterns</td>
+            <td>Wednesday</td>
+            <td>14:00 - 16:00</td>
+        </tr>
+        <tr>
+            <td>Operating Systems</td>
+            <td>Friday</td>
+            <td>09:00 - 11:00</td>
+        </tr>
+    </table>
+
+    <h3>Menu and smth about me</h3>
+    <table class="layout-table">
+        <tr>
+            <td class="menu">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </td>
+            <td class="content">
+                <h4>Main Content</h4>
+                <p>Welcome to my first webpage. I've never created a webpage before, so this is a new experience for me, so don't judge my skills too harshly.</p>
+            </td>
+        </tr>
+    </table>
+
+    <h3>My Mood Today</h3>
+    <p>I'm feeling happy 😊, excited 🚀, and ready to learn 📚 today!</p>
+
+    <h3>I'll call you. Wait for me!</h3>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="color">Favorite Color:</label><br>
+        <input type="color" id="color" name="color"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
